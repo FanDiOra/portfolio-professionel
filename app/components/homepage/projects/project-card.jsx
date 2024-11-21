@@ -24,19 +24,19 @@ function ProjectCard({ project }) {
         <code className="font-mono text-xs md:text-sm lg:text-base">
           <div className="blink">
             <span className="mr-2 text-pink-500">const</span>
-            <span className="mr-2 text-white">project</span>
+            <span className="mr-2 text-white">projet</span>
             <span className="mr-2 text-pink-500">=</span>
             <span className="text-gray-400">{'{'}</span>
           </div>
           <div>
-            <span className="ml-4 lg:ml-8 mr-2 text-white">name:</span>
+            <span className="ml-4 lg:ml-8 mr-2 text-white">nom:</span>
             <span className="text-gray-400">{`'`}</span>
             <span className="text-amber-300">{project.name}</span>
             <span className="text-gray-400">{`',`}</span>
           </div>
 
           <div className="ml-4 lg:ml-8 mr-2">
-            <span className=" text-white">tools:</span>
+            <span className=" text-white">technologies:</span>
             <span className="text-gray-400">{` ['`}</span>
             {
               project.tools.map((tag, i) => (
@@ -51,13 +51,21 @@ function ProjectCard({ project }) {
             }
             <span className="text-gray-400">{"],"}</span>
           </div>
+
           <div>
-            <span className="ml-4 lg:ml-8 mr-2 text-white">myRole:</span>
+            <span className="ml-4 lg:ml-8 mr-2 text-white">role:</span>
             <span className="text-orange-400">{project.role}</span>
             <span className="text-gray-400">,</span>
           </div>
+
+          <div>
+            <span className="ml-4 lg:ml-8 mr-2 text-white">code:</span>
+            <span className="text-green-400">{project.code}</span>
+            <span className="text-gray-400">,</span>
+          </div>
+
           <div className="ml-4 lg:ml-8 mr-2">
-            <span className="text-white">Description:</span>
+            <span className="text-white">description:</span>
             <span className="text-cyan-400">{' ' + project.description}</span>
             <span className="text-gray-400">,</span>
           </div>

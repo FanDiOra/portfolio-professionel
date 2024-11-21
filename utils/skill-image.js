@@ -10,6 +10,7 @@ import bulma from '/public/svg/skills/bulma.svg';
 import c from '/public/svg/skills/c.svg';
 import canva from '/public/svg/skills/canva.svg';
 import capacitorjs from '/public/svg/skills/capacitorjs.svg';
+import cassandra from '/public/svg/skills/cassandra.svg';
 import coffeescript from '/public/svg/skills/coffeescript.svg';
 import cplusplus from '/public/svg/skills/cplusplus.svg';
 import csharp from '/public/svg/skills/csharp.svg';
@@ -21,18 +22,21 @@ import docker from '/public/svg/skills/docker.svg';
 import fastify from '/public/svg/skills/fastify.svg';
 import figma from '/public/svg/skills/figma.svg';
 import firebase from '/public/svg/skills/firebase.svg';
+import flask from '/public/svg/skills/flask.svg';
 import flutter from '/public/svg/skills/flutter.svg';
 import gcp from '/public/svg/skills/gcp.svg';
 import gimp from '/public/svg/skills/gimp.svg';
 import git from '/public/svg/skills/git.svg';
 import go from '/public/svg/skills/go.svg';
 import graphql from '/public/svg/skills/graphql.svg';
+import hadoop from '/public/svg/skills/hadoop.svg';
 import haxe from '/public/svg/skills/haxe.svg';
 import html from '/public/svg/skills/html.svg';
 import illustrator from '/public/svg/skills/illustrator.svg';
 import ionic from '/public/svg/skills/ionic.svg';
 import java from '/public/svg/skills/java.svg';
 import javascript from '/public/svg/skills/javascript.svg';
+import jenkins from '/public/svg/skills/jenkins.svg';
 import julia from '/public/svg/skills/julia.svg';
 import kotlin from '/public/svg/skills/kotlin.svg';
 import lightroom from '/public/svg/skills/lightroom.svg';
@@ -43,11 +47,14 @@ import memsql from '/public/svg/skills/memsql.svg';
 import microsoftoffice from '/public/svg/skills/microsoftoffice.svg';
 import mongoDB from '/public/svg/skills/mongoDB.svg';
 import mysql from '/public/svg/skills/mysql.svg';
+import neo4j from '/public/svg/skills/neo4j.svg';
 import nextJS from '/public/svg/skills/nextJS.svg';
 import nginx from '/public/svg/skills/nginx.svg';
+import node from '/public/svg/skills/node.svg';
 import numpy from '/public/svg/skills/numpy.svg';
 import nuxtJS from '/public/svg/skills/nuxtJS.svg';
 import opencv from '/public/svg/skills/opencv.svg';
+import oracle from '/public/svg/skills/oracle.svg';
 import photoshop from '/public/svg/skills/photoshop.svg';
 import php from '/public/svg/skills/php.svg';
 import picsart from '/public/svg/skills/picsart.svg';
@@ -55,13 +62,17 @@ import postgresql from '/public/svg/skills/postgresql.svg';
 import premierepro from '/public/svg/skills/premierepro.svg';
 import python from '/public/svg/skills/python.svg';
 import pytorch from '/public/svg/skills/pytorch.svg';
+import r from '/public/svg/skills/r.svg';
 import react from '/public/svg/skills/react.svg';
 import ruby from '/public/svg/skills/ruby.svg';
+import scala from '/public/svg/skills/scala.svg';
 import selenium from '/public/svg/skills/selenium.svg';
 import sketch from '/public/svg/skills/sketch.svg';
+import spark from '/public/svg/skills/spark.svg';
 import strapi from '/public/svg/skills/strapi.svg';
 import svelte from '/public/svg/skills/svelte.svg';
 import swift from '/public/svg/skills/swift.svg';
+import tableau from '/public/svg/skills/tableau.svg';
 import tailwind from '/public/svg/skills/tailwind.svg';
 import tensorflow from '/public/svg/skills/tensorflow.svg';
 import typescript from '/public/svg/skills/typescript.svg';
@@ -225,6 +236,28 @@ export const skillsImage = (skill) => {
       return wolframalpha;
     case 'canva':
       return canva;
+    case 'cassandra':
+      return cassandra;
+    case 'flask':
+      return flask;
+    case 'hadoop':
+      return hadoop;
+    case 'jenkins':
+    return jenkins;
+    case 'neo4j':
+      return neo4j;
+    case 'node':
+    return node;
+    case 'oracle':
+      return oracle;
+    case 'r':
+      return r;
+    case 'scala':
+    return scala;
+    case 'spark':
+      return spark;
+    case 'tableau':
+    return tableau;
     default:
       break;
   }
