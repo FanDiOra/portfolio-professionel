@@ -2,7 +2,7 @@ export const educations = [
   {
     id: 1,
     title: "Developpement Data (Certifiant)",
-    duration: "Février 2024 - En cours",
+    duration: "Fev 2024 - Nov 2024",
     institution: "Sonatel Academy",
   },
   {
@@ -14,7 +14,7 @@ export const educations = [
   {
     id: 3,
     title: "Formation en Anglais (Certifiant)",
-    duration: "Janvier 2021 - Juillet 2021",
+    duration: "Jan 2021 - Jul 2021",
     institution: "Durra Institute",
   },
   {
